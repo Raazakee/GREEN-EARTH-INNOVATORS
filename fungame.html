@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="lgstyle.css">
+    <title>Earth Challenge</title>
+</head>
+<body>
+    <!-- Link to highscores -->
+    <a href="earthyscorecard.html">View Highscores</a>
+    <div class="wrapper1">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <div class="header" id="topheader">
+
+    
+        <nav class="navbar navbar-expand-lg fixed-top">
+    
+            <div class="container text-uppercase p-2">
+    
+            <div class="container-fluid">
+              <a class="navbar-brand font-weight-bold text-green" href="#">Green Earth Innovators</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 text-uppercase">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="LearningResources.html">Learning Resources</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="fungame.html">Fun Game</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="#newsletterid">About</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="#contactid">Contact</a>
+                  </li>
+    
+                </ul>
+                
+              </div>
+            </div>
+        </div>
+          </nav>
+    <div id="wrapper2">
+        <div id="currentTime"></div>
+        <!-- question div -->
+        <div id="questionsDiv">
+            <h1>EarthyKids</h1>
+            <p id>Are you an earth innovator? Surprise at the end for highest score. Start game after musical selection.  
+                </p>
+            <ul id="choicesUl"></ul>
+            <!-- button id -->
+            <button id="startTime">Start Game</button>
+            <p id="music"></p>
+            <div align="center">
+            <audio controls>
+            <source src="lgassets/PeerGyntSuiteDance.mp3" type="audio/mpeg"> 
+            </audio>
+            </div>
+            <br>
+            <p id="browser">Browser may not support audio.</p>
+        </div>
+    </div>
+    <script src="earthygame.js"></script>
+</body>
+</html>
+
